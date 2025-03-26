@@ -1,0 +1,8 @@
+version: '3.9'
+services:
+  app:
+    image: ntobon24/quiz1_gestion:latest  
+    ports:
+      - "8080:80"  
+    container_name: quiz1_app
+    restart: unless-stopped
